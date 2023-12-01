@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #141414">
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/netflix_logo.png" alt="logo" width="120" height="50"
+            /></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-7">
+            <div class="text-light">
+              <h1>Edit Profile</h1>
+              <hr />
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <img src="assets/avatar.png" alt="avatar" width="100%"/>
+              </div>
+              <div class="col-8">
+                <div class="mt-1">
+
+                    <div class="mb-4">
+                        <input type="text" class="form-control bg-secondary text-light border-0" placeholder="Strive Student" />
+                    </div>
+                   
+                    <span class="text-light">Language:</span>
+                    <div class="dropdown mt-1">
+                      <button
+                        class="btn btn-dark border-light dropdown-toggle mt-1"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        English
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Italiano</a></li>
+                        <li><a class="dropdown-item" href="#">France</a></li>
+                        <li><a class="dropdown-item" href="#">Span</a></li>
+                      </ul>
+                    </div>
+              </div>
+
+              <div class="text-light">
+                <hr>
+                <div class="mt-4">Maturity Settings:</div>
+               <div class="mt-2"><button class="btn btn-dark text-light">ALL MATURITY RATINGS</button></div>
+               <div class="mt-2">Show titles of all maturity ratings fot this profile.</div>
+               <div class="mt-2"><button class="btn btn-dark text-light">EDIT</button></div>
+               <hr>
+              </div>
+
+              <div class="mt-1 text-light">
+                <div>Autoplay controls</div>
+                <div class="form-check">
+                    <input class="form-check-input bg-secondary border-0" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Autoplay nets episode in a series on all devices.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input bg-secondary border-0 " type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Autoplay previews while browsing on all devices.
+                    </label>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-light">
+            <hr>
+            <button class="btn btn-light px-5 me-4"><a class="text-decoration-none text-dark" href="./index.html" target="_blank">SAVE</a></button>
+            <button class="btn btn-secondary px-5 me-3"><a class="text-decoration-none text-light" href="./index.html" target="_blank">CANCEL</a></button>
+            <button class="btn btn-secondary px-5 me-3"><a class="text-decoration-none text-light" href="./index.html" target="_blank">DELETE PROFILE</a></button>
+          </div>
+
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </main>
+  </body>
+</html>
